@@ -11,7 +11,8 @@ let photosArray = [];
 const apiKey = 'JkugdlMj4YsxoWCvulKG_C2LCEYqpoKTEb-uGpD9OLk'
 const count = 30;
 const query = 'plants';
-const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=${query}`;
+const orientation = 'landscape';
+const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=${query}&orientation=${orientation}`;
 
 // Check to see if images are loaded
 function imageLoaded() {
